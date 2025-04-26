@@ -9,7 +9,7 @@ import csv
 from collections import Counter
 import random
 
-model = YOLO('../Model Dev/runs/detect/train2/weights/best.pt')
+model = YOLO('../model_dev/runs/detect/train2/weights/best.pt')
 
 save_dir = 'plates'
 os.makedirs(save_dir, exist_ok=True)
